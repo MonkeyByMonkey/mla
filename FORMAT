@@ -1,0 +1,24 @@
+the mla (monkey loopable audio) format
+
+all multi-byte header values are to be interpreted as big endian.
+
+4 bytes signature 0xF0 0x9F 0x99 0x89
+1 byte version number
+
+version 1
+2 byte header size (including signature and version bytes)
+1 byte audio format identifier (0 = must be deduced from audio data)
+4 bytes loop area offset from header end
+4 bytes loop area size
+
+( (header size) - 16 ) bytes header data
+
+(loop area offset) bytes of intro audio
+( (loop area size) - (loop area offset) ) bytes of loop area audio
+remaning bytes are outro audio
+
+audio format identifier
+
+1 = ogg vorbis
+2 = flac
+3 = PCM signed 16-bit little-endian
