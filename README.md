@@ -4,4 +4,4 @@ monkey loopable audio format
 
 code in gplv3. format spec in public domain.
 
-Latest build: [i686-apple-darwin11](https://ci.protomou.se/job/mla/TARGET=i686-apple-darwin11,label=linux/lastSuccessfulBuild/artifact/dist/mla-i686-apple-darwin11.tar.gz) | [x86_64-apple-darwin11](https://ci.protomou.se/job/mla/TARGET=i686-apple-darwin11,label=linux/lastSuccessfulBuild/artifact/dist/mla-x86_64-apple-darwin11.tar.gz)
+Latest build: [i686-apple-darwin11](https://ci.protomou.se/job/mla/TARGET=i686-apple-darwin11,label=linux/lastSuccessfulBuild/artifact/dist/mla-i686-apple-darwin11.tar.gz) | [x86_64-apple-darwin11](https://ci.protomou.se/job/mla/TARGET=x86_64-apple-darwin11,label=linux/lastSuccessfulBuild/artifact/dist/mla-x86_64-apple-darwin11.tar.gz)
